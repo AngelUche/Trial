@@ -1,0 +1,264 @@
+
+div.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.testimony-image{
+    height: 4rem;
+    width: 4rem;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+div.testimony-image img{
+    width: 100%;
+    height: 100%;
+}
+div.testimony p{
+    text-align: center;
+    padding: 0rem 7rem 2rem 7rem;
+}
+div.testimony h2{
+    text-align: center;
+    margin-bottom: 0rem;
+}
+div.testimony p.p{
+    padding-top: 0rem;
+    color: rgba(137, 137, 124, 0.484);
+}
+section.section3 h3{
+    text-align: center;
+    font-size:2rem;
+    padding-top:5rem;
+    text-transform: uppercase;
+    color: rgba(137, 137, 124, 0.484);
+
+}
+section.section4{
+    /* height: 20rem; */
+    display: grid;
+    height: 10rem;
+    grid-template-areas: 
+    "a b c d";
+}
+
+section.section4 div.image1{
+    grid-area: a;
+   
+    /* background: url(../images/desktop/image-gallery-milkbottles.jpg) no-repeat center center/cover;     */
+
+}
+div.image1, div.image2, div.image3, div.image4{
+    width: 100%;
+    height: 100%;
+}
+
+div.image1 img, div.image2 img, div.image3 img, div.image4 img{
+    width: 100%;
+    height: 100%;
+}
+div.image2{
+    grid-area: b;
+}
+div.image3{
+    grid-area: c;
+}
+div.image4{
+    grid-area: d;
+}
+footer{
+    height: 15rem;
+    background-color: rgba(107, 226, 206, 0.468);
+    position: relative;
+}
+footer.last div.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+}
+footer.last h3{
+    padding-top: 3rem;
+    /* padding-bottom: 2rem; */
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(0, 108, 90);
+    font-weight: 900;
+}
+
+div.button button{
+    background-color: transparent;
+    border: none;
+}
+div.button a{
+    text-decoration: none;
+    color: rgb(0, 108, 90);
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+div.contact div.button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin:2rem 0rem 4rem 0rem ;
+}
+div.attribution{
+    position: absolute;
+    right: 10px;
+    font-size: 0.6rem;
+}
+div.attribution a{
+    text-decoration: none;
+    color: rgb(254, 137, 2);
+    font-size: 0.9rem;
+}
+@media only screen and (max-width: 347px){
+   
+    section.section1{
+        position: relative;
+    }
+    header{
+    /* flex-direction: c; */
+    height: 3rem;
+    width: 20rem;
+    right: 0px;
+    padding-top: 2rem;
+    position: fixed;
+   }
+   /* div.humerber{
+    width: 1.6rem;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    right:20px;
+   }
+   div.humerber::before{
+    content: "";
+    width: 1.6rem;
+    height: 1px;
+    background-color: rgb(243, 243, 243);
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right:0px;
+   }
+  
+
+   div.humerber::after{
+    content: "";
+    width: 1rem;
+    height: 1px;
+    background-color: rgb(243, 243, 243);
+    position: absolute;
+    z-index: 1;
+    top: 7px;
+    right:10px;
+   }
+
+ */
+
+
+   h1.sub-h1{
+    font-size: 3.03rem;
+    margin-top: 0rem;
+    padding-top: 4.2rem;
+    }
+    section.section1{
+        height: 30rem;
+    }
+    header button:last-child{
+        padding: 0rem 0rem 0rem 0rem;
+        border-radius: 0rem;
+        background-color:transparent;
+    }
+    button a.last{
+        color:white;
+    }
+    header button{
+        margin: 0 auto;
+        margin-right: 1rem;
+        margin-top: -2rem;
+    }
+    div.arow img{
+        top: 14rem;
+        height: 5rem;
+        left: 14.5rem;
+    }
+    
+    section.section2{
+        display: flex;
+        flex-direction: column;
+    }
+    div.first{
+        order:2 ;
+    }
+    div.second{
+        order: 1;
+    }
+    div.third{
+        order: 3;
+    }
+
+    div.forth{
+        order:4 ;
+    }
+
+    div.five{order: 5;}
+
+    div.six{order: 6;}
+    div.first h3, div.forth h3{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        margin-top: 3rem;
+        text-align:center;
+    }
+    div.first, div.forth{
+        padding:0rem 2rem 1rem 1rem;
+    }
+    div.first p, div.forth p{
+        font-size: 1rem;
+    }
+    div.first button, div.forth button{
+        font-size: 0.8rem;
+    }
+    div.five h3, div.six h3{
+        padding-top: 15rem;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    div.five p, div.six p{
+        line-height: 1.2;
+        font-size: 1.1em;
+        padding: 0.3rem 2rem 1rem 3rem;
+    }
+    section.section3{
+    height: 66rem;
+    }
+    div.flex{
+        display: flex;
+        flex-direction: column;
+    }
+    div.testimony p{
+        text-align: center;
+        padding: 0rem 7rem 2rem 7rem;
+    }
+    div.testimony-image{
+        margin-top: 1rem;
+    }
+    section.section4{
+        background-color: aquamarine;
+        /* height: 40rem; */
+        display: grid;
+        grid-template-areas: 
+        "a b"
+        "c d";
+    }   
+    div.attribution{
+        left: 10px;
+    } 
+}

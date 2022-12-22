@@ -1,0 +1,147 @@
+@media only screen and (max-width: 600px){
+   
+    section.section1{
+        position: relative;
+    }
+    header{
+    /* flex-direction: c; */
+    height: 3rem;
+    width: 20rem;
+    right: 0px;
+    padding-top: 2rem;
+    position: fixed;
+   }
+   /* div.humerber{
+    width: 1.6rem;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    right:20px;
+   }
+   div.humerber::before{
+    content: "";
+    width: 1.6rem;
+    height: 1px;
+    background-color: rgb(243, 243, 243);
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right:0px;
+   }
+  
+
+   div.humerber::after{
+    content: "";
+    width: 1rem;
+    height: 1px;
+    background-color: rgb(243, 243, 243);
+    position: absolute;
+    z-index: 1;
+    top: 7px;
+    right:10px;
+   }
+
+ */
+
+
+   h1.sub-h1{
+    font-size: 3.03rem;
+    margin-top: 0rem;
+    padding-top: 4.2rem;
+    }
+    section.section1{
+        height: 30rem;
+    }
+    header button:last-child{
+        padding: 0rem 0rem 0rem 0rem;
+        border-radius: 0rem;
+        background-color:transparent;
+    }
+    button a.last{
+        color:white;
+    }
+    header button{
+        margin: 0 auto;
+        margin-right: 1rem;
+        margin-top: -2rem;
+    }
+    div.arow img{
+        top: 14rem;
+        height: 5rem;
+        left: 14.5rem;
+    }
+    
+    section.section2{
+        display: flex;
+        flex-direction: column;
+    }
+    div.first{
+        order:2 ;
+    }
+    div.second{
+        order: 1;
+    }
+    div.third{
+        order: 3;
+    }
+
+    div.forth{
+        order:4 ;
+    }
+
+    div.five{order: 5;}
+
+    div.six{order: 6;}
+    div.first h3, div.forth h3{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        margin-top: 3rem;
+        text-align:center;
+    }
+    div.first, div.forth{
+        padding:0rem 2rem 1rem 1rem;
+    }
+    div.first p, div.forth p{
+        font-size: 1rem;
+    }
+    div.first button, div.forth button{
+        font-size: 0.8rem;
+    }
+    div.five h3, div.six h3{
+        padding-top: 15rem;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    div.five p, div.six p{
+        line-height: 1.2;
+        font-size: 1.1em;
+        padding: 0.3rem 2rem 1rem 3rem;
+    }
+    section.section3{
+    height: 66rem;
+    }
+    div.flex{
+        display: flex;
+        flex-direction: column;
+    }
+    div.testimony p{
+        text-align: center;
+        padding: 0rem 7rem 2rem 7rem;
+    }
+    div.testimony-image{
+        margin-top: 1rem;
+    }
+    section.section4{
+        background-color: aquamarine;
+        /* height: 40rem; */
+        display: grid;
+        grid-template-areas: 
+        "a b"
+        "c d";
+    }   
+    div.attribution{
+        left: 10px;
+    } 
+}

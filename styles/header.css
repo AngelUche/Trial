@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 3rem;
+    display: flex;
+    margin-bottom: 4rem;
+}
+header button{
+    background-color: transparent;
+    border: none;
+    margin: 0.2rem;
+    margin-right: 2rem;
+    font-size: 16px;
+    margin-top: 2rem;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header button:first-child{
+    margin-left: auto;
+}
+header button:last-child{
+    font-style: 16px;
+    padding: 0.5rem 1.8rem 1.5rem 1.8rem;
+    border-radius: 2rem;
+    background-color: white;
+}
+button a.last{
+    color: black;
+}
+button.suny{
+    position: absolute;
+    top: 1.5rem;
+    z-index: 2;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.4rem;
+    font-weight:700;
+    left: 20px;
+}
+section.section1{
+    height: 40rem;
+    background: url(../images/desktop/image-header.jpg) no-repeat center center/cover;
+}
+h1.sub-h1{
+    font-size: 4rem;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 7rem;
+}
+div.arow img{
+    position: absolute;
+    top: 18rem;
+    height: 8rem;
+    width: 2rem;
+    left: calc(100vw - 50rem);
+}
+section.section2{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+}
+div.first h3, div.forth h3{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    font-weight: 900;
+    margin-top: 5rem;
+    line-height: 0.9;
+    text-align: start;  
+}
+div.forth h3{
+    font-size: 3rem;
+}
+div.first, div.forth{
+    padding:0rem 9rem 1rem 9rem;
+}
+div.first p, div.forth p{
+    font-size: 1.28rem;
+    line-height: 1.5;
+    text-align: start;
+    margin-bottom: 1rem;
+}
+div.first button, div.forth button{
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    font-weight:700;
+    text-align: left;
+    text-transform: uppercase;
+}
+div.first a, div.forth a{
+    color: black;
+    text-decoration: none;
+}
+
+
+div.second, div.third, div.five, div.six{
+    height: 25rem;
+}
+div.second{
+    background: url(../images/desktop/image-transform.jpg) no-repeat center center/cover;    
+}
+div.third{
+    background: url(../images/desktop/image-stand-out.jpg) no-repeat center center/cover;    
+}
+div.five{
+    background: url(../images/desktop/image-graphic-design.jpg) no-repeat center center/cover;    
+}
+div.six{
+    background: url(../images/desktop/image-photography.jpg) no-repeat center center/cover;    
+}
+div.five h3, div.six h3{
+    padding-top: 15rem;
+    text-align:center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 900;
+}
+div.five p, div.six p{
+    line-height: 1.2;
+    font-size: 1.1em;
+    text-align:center;
+    padding: 0.3rem 13rem 1rem 13rem;
+}
+
